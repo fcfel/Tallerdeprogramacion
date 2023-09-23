@@ -7,4 +7,7 @@ def inicio(request):
 
 
 def nosotros(request):
+    return render(request,"pages/nosotros.html",{})
+
+def resumen(request):
     return render(request,"pages/resumen.html",{})
