@@ -4,3 +4,13 @@ body{
 .ok{
     background-color: red;
 }
+
+.image-container {
+    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor padre */
+    height: auto; /* Asegura que la relación de aspecto se mantenga */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que exceda el contenedor */
+}
+.image-container img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Asegura que la relación de aspecto se mantenga */
+}

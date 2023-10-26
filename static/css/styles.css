@@ -11732,4 +11732,10 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+ .img-custom {
+    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+    height: auto; /* Asegura que la relación de aspecto se mantenga */
+}
+
+
 }
